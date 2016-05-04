@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F976731C1CDA649E007B9B40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F976731B1CDA649E007B9B40 /* AppDelegate.swift */; };
+		F976731E1CDA649E007B9B40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F976731D1CDA649E007B9B40 /* ViewController.swift */; };
+		F97673211CDA649E007B9B40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F976731F1CDA649E007B9B40 /* Main.storyboard */; };
+		F97673231CDA649E007B9B40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F97673221CDA649E007B9B40 /* Assets.xcassets */; };
+		F97673261CDA649E007B9B40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F97673241CDA649E007B9B40 /* LaunchScreen.storyboard */; };
+		F976732E1CDA66E9007B9B40 /* RAkeyboardAccessoryToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F976732D1CDA66E9007B9B40 /* RAkeyboardAccessoryToolbar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F97673181CDA649E007B9B40 /* RAkeyboardToolbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAkeyboardToolbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F976731B1CDA649E007B9B40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F976731D1CDA649E007B9B40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F97673201CDA649E007B9B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F97673221CDA649E007B9B40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F97673251CDA649E007B9B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F97673271CDA649E007B9B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F976732D1CDA66E9007B9B40 /* RAkeyboardAccessoryToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAkeyboardAccessoryToolbar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F97673151CDA649E007B9B40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F976730F1CDA649E007B9B40 = {
+			isa = PBXGroup;
+			children = (
+				F976731A1CDA649E007B9B40 /* RAkeyboardToolbar */,
+				F97673191CDA649E007B9B40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F97673191CDA649E007B9B40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F97673181CDA649E007B9B40 /* RAkeyboardToolbar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F976731A1CDA649E007B9B40 /* RAkeyboardToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				F976731B1CDA649E007B9B40 /* AppDelegate.swift */,
+				F976732D1CDA66E9007B9B40 /* RAkeyboardAccessoryToolbar.swift */,
+				F976731D1CDA649E007B9B40 /* ViewController.swift */,
+				F976731F1CDA649E007B9B40 /* Main.storyboard */,
+				F97673221CDA649E007B9B40 /* Assets.xcassets */,
+				F97673241CDA649E007B9B40 /* LaunchScreen.storyboard */,
+				F97673271CDA649E007B9B40 /* Info.plist */,
+			);
+			path = RAkeyboardToolbar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F97673171CDA649E007B9B40 /* RAkeyboardToolbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F976732A1CDA649E007B9B40 /* Build configuration list for PBXNativeTarget "RAkeyboardToolbar" */;
+			buildPhases = (
+				F97673141CDA649E007B9B40 /* Sources */,
+				F97673151CDA649E007B9B40 /* Frameworks */,
+				F97673161CDA649E007B9B40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAkeyboardToolbar;
+			productName = RAkeyboardToolbar;
+			productReference = F97673181CDA649E007B9B40 /* RAkeyboardToolbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F97673101CDA649E007B9B40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Rohit Arora";
+				TargetAttributes = {
+					F97673171CDA649E007B9B40 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F97673131CDA649E007B9B40 /* Build configuration list for PBXProject "RAkeyboardToolbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F976730F1CDA649E007B9B40;
+			productRefGroup = F97673191CDA649E007B9B40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F97673171CDA649E007B9B40 /* RAkeyboardToolbar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F97673161CDA649E007B9B40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97673261CDA649E007B9B40 /* LaunchScreen.storyboard in Resources */,
+				F97673231CDA649E007B9B40 /* Assets.xcassets in Resources */,
+				F97673211CDA649E007B9B40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F97673141CDA649E007B9B40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F976732E1CDA66E9007B9B40 /* RAkeyboardAccessoryToolbar.swift in Sources */,
+				F976731E1CDA649E007B9B40 /* ViewController.swift in Sources */,
+				F976731C1CDA649E007B9B40 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F976731F1CDA649E007B9B40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F97673201CDA649E007B9B40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F97673241CDA649E007B9B40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F97673251CDA649E007B9B40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F97673281CDA649E007B9B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F97673291CDA649E007B9B40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F976732B1CDA649E007B9B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RAkeyboardToolbar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutorial.RAkeyboardToolbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F976732C1CDA649E007B9B40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RAkeyboardToolbar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutorial.RAkeyboardToolbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F97673131CDA649E007B9B40 /* Build configuration list for PBXProject "RAkeyboardToolbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97673281CDA649E007B9B40 /* Debug */,
+				F97673291CDA649E007B9B40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F976732A1CDA649E007B9B40 /* Build configuration list for PBXNativeTarget "RAkeyboardToolbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F976732B1CDA649E007B9B40 /* Debug */,
+				F976732C1CDA649E007B9B40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F97673101CDA649E007B9B40 /* Project object */;
+}
